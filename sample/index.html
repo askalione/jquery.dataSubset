@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>jQuery.dataSubset example</title>
+</head>
+<body>
+    <div class="data-subset-example"
+         data-select-search="true"
+         data-select-id-param="id"
+         data-width="100%"
+         data-ajax-url="http://url.example.com"
+         data-ajax-cache="false"></div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="../src/jquery.dataSubset.js"></script>
+    <script type="text/javascript">
+        var $example = $('.data-subset-example');
+
+        var allData = $example.data();
+        console.log('all_data =>', allData);
+
+        var subsetData = $example.dataSubset('select');
+        console.log('subset_data =>', subsetData);
+    </script>
+</body>
+</html>

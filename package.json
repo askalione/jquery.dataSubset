@@ -1,0 +1,29 @@
+{
+  "name": "@askalione/jquery.datasubset",
+  "version": "1.1.0",
+  "description": "jQuery plugin for getting data subset",
+  "main": "jquery.dataSubset.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askalione/jquery.dataSubset.git"
+  },
+  "keywords": [
+    "jquery",
+    "data",
+    "subset",
+    "prefix"
+  ],
+  "author": "Alexey Drapash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askalione/jquery.dataSubset/issues"
+  },
+  "homepage": "https://github.com/askalione/jquery.dataSubset#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {}
+}
