@@ -7,7 +7,7 @@ jQuery.dataSubset is a simple jQuery plugin for getting data subset.
 For example you have html:
 
 ```html
-	<div class="data-subset-example" data-id="1" data-name="Example" data-ajax-url ="https://url.example.com" data-ajax-cache="true"></div>
+<div class="data-subset-example" data-id="1" data-name="Example" data-ajax-url ="https://url.example.com" data-ajax-cache="true"></div>
 ```
 
 To get only ajax data u should use:
