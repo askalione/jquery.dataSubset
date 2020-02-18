@@ -1,4 +1,4 @@
-# Optimizer
+# jQuery.dataSubset
 
 jQuery.dataSubset is a simple jQuery plugin for getting data subset.
 
